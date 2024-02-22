@@ -2,19 +2,7 @@ name:
 description: Release Note Entry to Recipe
 title: "[Title]: "
 labels: ["release-note"]
-projects:
-  - "spring-boot"
-  - "spring-framework"
-  - "spring-data-jpa"
-  - "spring-data-jdbc"
-  - "spring-data-mongodb"
-  - "spring-data-neo4j"
-  - "spring-data-elastic"
-  - "spring-data-cassandra"
-  - "spring-data-redis"
-  - "spring-integration"
-  - "spring-data-geode"
-  - "spring-security"
+projects: ["s", "c"]
 assignees:
   - octocat
 body:
