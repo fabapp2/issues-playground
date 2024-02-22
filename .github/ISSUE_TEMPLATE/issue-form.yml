@@ -2,7 +2,7 @@ name: Release Note
 description: Release Note Entry to Recipe
 title: ""
 labels: ["release-note"]
-projects:
+projects: []
 assignees:
   - octocat
 body:
