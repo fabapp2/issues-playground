@@ -1,10 +1,20 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
-assignees:
-  - octocat
+name:
+description: Release Note Entry to Recipe
+title: "[Title]: "
+labels: ["release-note"]
+projects:
+  - "spring-boot"
+  - "spring-framework"
+  - "spring-data-jpa"
+  - "spring-data-jdbc"
+  - "spring-data-mongodb"
+  - "spring-data-neo4j"
+  - "spring-data-elastic"
+  - "spring-data-cassandra"
+  - "spring-data-redis"
+  - "spring-integration"
+  - "spring-data-geode"
+  - "spring-security"
 body:
   - type: markdown
     attributes:
