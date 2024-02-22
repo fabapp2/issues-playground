@@ -1,23 +1,29 @@
 name: Release Note
 description: Release Note Entry to Recipe
-title: "[Title]: "
+title: ""
 labels: ["release-note"]
 projects:
-  - "spring-boot"
-  - "spring-framework"
-  - "spring-data-jpa"
-  - "spring-data-jdbc"
-  - "spring-data-mongodb"
-  - "spring-data-neo4j"
-  - "spring-data-elastic"
-  - "spring-data-cassandra"
-  - "spring-data-redis"
-  - "spring-integration"
-  - "spring-data-geode"
-  - "spring-security"
 assignees:
   - octocat
 body:
+  - type: dropdown
+    id: spring-project
+    attributes:
+      label: Spring Project
+      description: The Spring Project owning the Release Note
+      options:
+        - "spring-boot"
+        - "spring-framework"
+        - "spring-data-jpa"
+        - "spring-data-jdbc"
+        - "spring-data-mongodb"
+        - "spring-data-neo4j"
+        - "spring-data-elastic"
+        - "spring-data-cassandra"
+        - "spring-data-redis"
+        - "spring-integration"
+        - "spring-data-geode"
+        - "spring-security"
   - type: markdown
     attributes:
       value: |
