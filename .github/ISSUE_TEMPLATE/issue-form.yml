@@ -3,7 +3,7 @@ description: File a bug report
 title: "Release Note Title"
 labels: ["release-note"]
 projects: ["octo-org/1", "octo-org/44"]
-assignees:
+assignees: []
 body:
   - type: dropdown
     id: spring-project
