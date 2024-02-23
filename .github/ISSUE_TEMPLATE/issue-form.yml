@@ -24,6 +24,7 @@ body:
         - "spring-integration"
         - "spring-data-geode"
         - "spring-security"
+      default: 0
   - type: markdown
     attributes:
       value: |
