@@ -2,7 +2,7 @@ name: Bug Report
 description: File a bug report
 title: "Release Note Title"
 labels: ["release-note"]
-projects: ["fabapp2/projects/2"]
+projects: ["fabapp2/projects/2","users/fabapp2/projects/3"]
 assignees: []
 body:
   - type: dropdown
