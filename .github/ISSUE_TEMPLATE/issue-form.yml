@@ -6,6 +6,25 @@ projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
 body:
+  - type: dropdown
+    id: spring-project
+    attributes:
+      label: Spring Project
+      description: The Spring Project owning the Release Note
+      options:
+        - "spring-boot"
+        - "spring-framework"
+        - "spring-data-jpa"
+        - "spring-data-jdbc"
+        - "spring-data-mongodb"
+        - "spring-data-neo4j"
+        - "spring-data-elastic"
+        - "spring-data-cassandra"
+        - "spring-data-redis"
+        - "spring-integration"
+        - "spring-data-geode"
+        - "spring-security"
+      default: 0
   - type: markdown
     attributes:
       value: |
