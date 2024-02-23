@@ -1,8 +1,8 @@
-name: Release Note
-description: Release Note Entry to Recipe
-title: ""
-labels: ["release-note"]
-projects: []
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
+projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
 body:
